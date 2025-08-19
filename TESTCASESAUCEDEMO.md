@@ -65,7 +65,7 @@ This document contains the test cases for the Swag Labs E-Commerce website (Sauc
 | TC_SCF_002_001 | Add to Cart | Functional | User is logged in & on Products page | 1. Select a product<br>2. Click **Add to cart** | Product added; cart icon/count updated | High |
 | TC_SCF_002_002 | Update Cart | Functional | Product(s) already in cart | 1. Open Cart<br>2. Increase/decrease quantity | Cart updated to reflect quantity change | Medium |
 | TC_SCF_002_003 | Boundary Quantity | Exploratory | User is on cart page | 1. Add maximum allowable quantity of an item<br>2. Observe system behavior | System allows max quantity without crash; validation messages if limits exceeded | Medium |
-| TC_SCF_002_005 | Remove from Cart | Functional | Item present in cart | 1. Open Cart<br>2. Click **Remove** on product | Item removed; cart count updates | High |
+| TC_SCF_002_004 | Remove from Cart | Functional | Item present in cart | 1. Open Cart<br>2. Click **Remove** on product | Item removed; cart count updates | High |
 | TC_CPF_003_001 | Proceeding to Checkout | Functional | Items in cart | 1. Click **Checkout** / **Proceed to Checkout**<br>2. Fill customer info<br>3. Submit | Checkout completes or proceeds to payment page | High |
 | TC_CPF_003_002 | Price Display Accuracy | Functional | Items in cart | 1. Add items to cart<br>2. Proceed to checkout | Item prices and totals match product page and total calculation | High |
 | TC_CPF_003_003 | Invalid Payment Details | Negative | Items in cart, payment form present | 1. Enter invalid payment details<br>2. Attempt payment | Payment fails; clear error message shown | Medium |
