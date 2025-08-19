@@ -31,8 +31,8 @@ This document contains the test cases for the Swag Labs E-Commerce website (Sauc
 - **Reporting:** Extent Reports (configured in the framework).
 
 ### Application under test (AUT)
-- **Web:** https://www.saucedemo.com/
-- **API (for API cases):** https://reqres.in/ (use full path as needed, e.g., `https://reqres.in/api/users`)
+- **E2E Testing:** [Sauce Demo](https://www.saucedemo.com/)
+- **API (for API cases):** [ReqRes](https://reqres.inapi/users)
 
 ### Test accounts & credentials (SauceDemo demo accounts)
 - `standard_user` / `secret_sauce` — valid user (for positive login & E2E)
