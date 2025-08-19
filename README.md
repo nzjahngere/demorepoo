@@ -1,8 +1,6 @@
 # QuantumLeap E-Commerce Test Automation Framework 🚀
 
-A comprehensive **test automation framework** built to validate both UI and API functionality of an e-commerce application.  
-This project demonstrates **end-to-end automation**, **BDD practices**, **API testing**, and covers conceptual **performance** and **security** testing strategies.  
-It is designed as a **professional, portfolio-ready project** to showcase modern QA automation practices.
+A comprehensive **test automation framework** built to validate both UI and API functionality of an e-commerce application. This project demonstrates **end-to-end automation**, **BDD practices**, **API testing**, and covers conceptual **performance** and **security** testing strategies. It is designed as a **professional, portfolio-ready project** to showcase modern QA automation practices.
 
 ---
 
