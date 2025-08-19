@@ -68,12 +68,10 @@ This document contains the test cases for the Swag Labs E-Commerce website (Sauc
 | TC_SCF_002_004 | Remove from Cart | Functional | Item present in cart | 1. Open Cart<br>2. Click **Remove** on product | Item removed; cart count updates | High |
 | TC_CPF_003_001 | Proceeding to Checkout | Functional | Items in cart | 1. Click **Checkout** / **Proceed to Checkout**<br>2. Fill customer info<br>3. Submit | Checkout completes or proceeds to payment page | High |
 | TC_CPF_003_002 | Price Display Accuracy | Functional | Items in cart | 1. Add items to cart<br>2. Proceed to checkout | Item prices and totals match product page and total calculation | High |
-| TC_CPF_003_003 | Invalid Payment Details | Negative | Items in cart, payment form present | 1. Enter invalid payment details<br>2. Attempt payment | Payment fails; clear error message shown | Medium |
-| TC_CPF_003_004 | Missing Mandatory Details | Negative | Items in cart | 1. Leave mandatory checkout fields empty<br>2. Submit | Validation errors shown for missing mandatory fields | Medium |
-| TC_CPF_003_005 | Checkout with Maximum Items | Exploratory | Cart filled with max items | 1. Add max allowable items<br>2. Proceed to checkout | System handles large order (no crash); performance checked | Medium |
-| TC_CPF_003_006 | Order Details & Price Calculation | Functional | Items in cart | 1. Proceed to checkout<br>2. Verify line item totals & final amount | Price calculations accurate and match product prices | Medium |
-| TC_CPF_003_007 | Payment Gateway & Transactions | Functional | Payment method available | 1. Enter valid payment details<br>2. Complete transaction | Transaction successful; payment gateway responds OK | Medium |
-| TC_CPF_003_008 | Order Confirmation | Functional | Order placed | 1. Complete checkout<br>2. Observe confirmation page | Order confirmation message/page displayed with order details | High |
+| TC_CPF_003_003 | Missing Mandatory Details | Negative | Items in cart | 1. Leave mandatory checkout fields empty<br>2. Submit | Validation errors shown for missing mandatory fields | Medium |
+| TC_CPF_003_004 | Checkout with Maximum Items | Exploratory | Cart filled with max items | 1. Add max allowable items<br>2. Proceed to checkout | System handles large order (no crash); performance checked | Medium |
+| TC_CPF_003_005 | Order Details & Price Calculation | Functional | Items in cart | 1. Proceed to checkout<br>2. Verify line item totals & final amount | Price calculations accurate and match product prices | Medium |
+| TC_CPF_003_006 | Order Confirmation | Functional | Order placed | 1. Complete checkout<br>2. Observe confirmation page | Order confirmation message/page displayed with order details | High |
 | TC_UIS_004_001 | Responsiveness across Devices | UI Validation | Website accessible on device | 1. Open site on multiple device sizes (mobile/tablet/desktop) | Layout adapts correctly across devices | High |
 | TC_UIS_004_002 | Broken UI elements | UI Validation | Website UI loaded | 1. Inspect pages for broken elements, missing images, truncated text | No broken UI elements; images and elements render correctly | High |
 | TC_UIS_004_003 | Consistency of fonts/colors/spacing | UI Validation | Website UI loaded | 1. Compare fonts, colors, spacing vs design guidelines | UI follows design guidelines consistently | Medium |
