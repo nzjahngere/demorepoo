@@ -35,10 +35,7 @@ This document contains the test cases for the Swag Labs E-Commerce website (Sauc
 - **API (for API cases):** [ReqRes](https://reqres.inapi/users)
 
 ### Test accounts & credentials (SauceDemo demo accounts)
-- `standard_user` / `secret_sauce` — valid user (for positive login & E2E)
-- `locked_out_user` / `secret_sauce` — locked-out user (negative)
-- `problem_user` / `secret_sauce` — problem / visual issues
-- `performance_glitch_user` / `secret_sauce` — intentionally slow behavior
+- Checkout the website's login page
 
 ### Test data & artifacts
 - Test data files (if any) under `/resources/testdata/`
