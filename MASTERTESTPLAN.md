@@ -151,5 +151,4 @@ The report includes:
 
 > ⚡ This project demonstrates a **full QA automation framework** across functional, API, BDD, performance, and security testing concepts.
 
-```
 ---
