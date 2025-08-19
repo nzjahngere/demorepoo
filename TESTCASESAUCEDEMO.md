@@ -1,5 +1,4 @@
-# TESTCASESAUCEDEMO.md
-# Test Cases — Swag Labs / Sauce Demo (QuantumLeap Project)
+# Test Cases for the Swag Labs
 ---
 
 ## Document purpose
@@ -11,15 +10,13 @@ This document contains the curated and improved test cases for the Swag Labs E-C
 1. Prerequisites
 2. Legend / Conventions
 3. Functional & UI Test Cases (Login / Cart / Checkout / UI)
-4. API Test Cases (REST Assured)
-5. API Test Cases (Postman)
+4. API Test Cases (REST Assured / Postman)
 6. Conceptual Security Test Cases
 7. Conceptual Performance Test Cases
-8. Notes
 
 ---
 
-## 1. Prerequisites (improved)
+## 1. Prerequisites
 > Make sure the following are ready before executing any test case below.
 
 ### Test environment & tools
@@ -43,18 +40,12 @@ This document contains the curated and improved test cases for the Swag Labs E-C
 - `problem_user` / `secret_sauce` — problem / visual issues
 - `performance_glitch_user` / `secret_sauce` — intentionally slow behavior
 
-> Note: These are the default sample accounts used by SauceDemo. If your environment uses different credentials, update test data accordingly.
-
 ### Test data & artifacts
 - Test data files (if any) under `/resources/testdata/`
 - Postman collection export (attach `.json` in `/postman/` if available)
 - REST Assured: Maven dependencies configured (`rest-assured`, `testng`, `json-path`, etc.)
 - Ensure test user accounts exist and the AUT is reachable.
-
-### Test execution accounts & permissions
-- Test runner machine must have permission to access the AUT and to write the reports to `/reports/` folder.
-- If automating, CI user must have ChromeDriver accessible and HEADLESS flag if running in CI.
-
+ 
 ---
 
 ## 2. Legend / Conventions
@@ -159,26 +150,3 @@ This document contains the curated and improved test cases for the Swag Labs E-C
 - Keep scenarios small & focused for the portfolio; document the workload model.
 
 ---
-
-## 8. Notes & Next Steps
-- The functional test cases are directly converted from your uploaded document and preserved. Source: original file. :contentReference[oaicite:2]{index=2}  
-- API tests are split into **automation** (REST Assured) and **manual/collection** (Postman) as you requested.
-- Security & Performance entries are intentionally **conceptual** and included as documentation artifacts — per project requirements.
-- If you want, I can:
-  - Generate the **Postman collection template** file (`postman_collection.json`) with the four endpoints.
-  - Generate skeleton **REST Assured** test classes for RA-001..RA-004 with TestNG annotations.
-  - Convert this Markdown to a file and place it in a repo-ready structure.
-
----
-
-## Quick copy-paste filename
-Save this content to `TESTCASESAUCEDEMO.md` in your repo root or `/docs/` folder.
-
----
-
-If you want, I’ll:
-- Create the **REST Assured skeleton** test class files next (with code examples), or
-- Export this Markdown into a file in the repo (I can generate a file you can download).
-
-Which of those should I do next?  
-(If you want the code skeleton, I’ll include TestNG + RestAssured examples and defaults for assertions.)
