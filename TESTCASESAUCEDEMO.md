@@ -138,11 +138,9 @@ This document contains the curated and improved test cases for the Swag Labs E-C
 | TC ID | Scenario | Objective | Approach (conceptual) | Measured Metrics | Priority |
 |---|---|---|---|---|---|
 | PERF-001 | Login under load (Conceptual) | Validate login endpoint under concurrent load | 1. Simulate 50 concurrent virtual users (VU) performing login using a load tool (JMeter/Gatling/Locust)<br>2. Ramp-up over 60s, sustain for 5 mins | Avg response time, p95, throughput (req/sec), error rate (%) | High |
-| PERF-002 | Checkout under stress (Conceptual) | Validate checkout flow performance | 1. Simulate concurrent checkout attempts (20-50 users) including product add & payment steps | Response times, failures, server errors | Medium |
 
 **Performance notes**
 - Define SLAs (e.g., 95th percentile login response < 2s).
 - Capture server-side metrics if possible (CPU, memory, DB latency).
-- Keep scenarios small & focused for the portfolio; document the workload model.
 
 ---
