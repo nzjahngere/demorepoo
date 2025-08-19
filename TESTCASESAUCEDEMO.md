@@ -65,12 +65,10 @@ This document contains the curated and improved test cases for the Swag Labs E-C
 | TC_UAU_001_003 | Empty Fields | Negative | User is on the login page | 1. Open login page<br>2. Leave fields blank<br>3. Click **Login** | Error message displayed indicating required fields | Medium |
 | TC_UAU_001_004 | Case Sensitivity | Negative | User is on the login page | 1. Enter username/password with different case variants<br>2. Click **Login** | Login fails (case-sensitive). Proper error shown | Medium |
 | TC_UAU_001_005 | Forgot Password Feature | Negative | Feature exists on page | 1. Click **Forgot Password** (or equivalent)<br>2. Enter email<br>3. Submit | Password reset flow triggered / confirmation shown | High |
-
 | TC_SCF_002_001 | Add to Cart | Functional | User is logged in & on Products page | 1. Select a product<br>2. Click **Add to cart** | Product added; cart icon/count updated | High |
 | TC_SCF_002_002 | Update Cart | Functional | Product(s) already in cart | 1. Open Cart<br>2. Increase/decrease quantity | Cart updated to reflect quantity change | Medium |
 | TC_SCF_002_003 | Boundary Quantity | Exploratory | User is on cart page | 1. Add maximum allowable quantity of an item<br>2. Observe system behavior | System allows max quantity without crash; validation messages if limits exceeded | Medium |
 | TC_SCF_002_005 | Remove from Cart | Functional | Item present in cart | 1. Open Cart<br>2. Click **Remove** on product | Item removed; cart count updates | High |
-
 | TC_CPF_003_001 | Proceeding to Checkout | Functional | Items in cart | 1. Click **Checkout** / **Proceed to Checkout**<br>2. Fill customer info<br>3. Submit | Checkout completes or proceeds to payment page | High |
 | TC_CPF_003_002 | Price Display Accuracy | Functional | Items in cart | 1. Add items to cart<br>2. Proceed to checkout | Item prices and totals match product page and total calculation | High |
 | TC_CPF_003_003 | Invalid Payment Details | Negative | Items in cart, payment form present | 1. Enter invalid payment details<br>2. Attempt payment | Payment fails; clear error message shown | Medium |
@@ -79,7 +77,6 @@ This document contains the curated and improved test cases for the Swag Labs E-C
 | TC_CPF_003_006 | Order Details & Price Calculation | Functional | Items in cart | 1. Proceed to checkout<br>2. Verify line item totals & final amount | Price calculations accurate and match product prices | Medium |
 | TC_CPF_003_007 | Payment Gateway & Transactions | Functional | Payment method available | 1. Enter valid payment details<br>2. Complete transaction | Transaction successful; payment gateway responds OK | Medium |
 | TC_CPF_003_008 | Order Confirmation | Functional | Order placed | 1. Complete checkout<br>2. Observe confirmation page | Order confirmation message/page displayed with order details | High |
-
 | TC_UIS_004_001 | Responsiveness across Devices | UI Validation | Website accessible on device | 1. Open site on multiple device sizes (mobile/tablet/desktop) | Layout adapts correctly across devices | High |
 | TC_UIS_004_002 | Broken UI elements | UI Validation | Website UI loaded | 1. Inspect pages for broken elements, missing images, truncated text | No broken UI elements; images and elements render correctly | High |
 | TC_UIS_004_003 | Consistency of fonts/colors/spacing | UI Validation | Website UI loaded | 1. Compare fonts, colors, spacing vs design guidelines | UI follows design guidelines consistently | Medium |
