@@ -55,7 +55,7 @@ This document contains the test cases for the Swag Labs E-Commerce website (Sauc
 
 ## 3. Functional & UI Test Cases (Login / Cart / Checkout / UI)
 
-| TC ID | Test Case Name | Category | Pre-Conditions | Test Steps | Expected Result | Priority |
+| Test Case ID | Test Case Name | Category | Prerequisites | Steps to Execute | Expected Result | Priority |
 |---|---|---|---|---|---|---|
 | TC_UAU_001_001 | Valid Login | Functional | User is on the login page | 1. Open login page<br>2. Enter `standard_user` / `secret_sauce`<br>3. Click **Login** | Login successful; redirected to Products page | High |
 | TC_UAU_001_002 | Invalid Login | Negative | User is on the login page | 1. Open login page<br>2. Enter invalid credentials<br>3. Click **Login** | Login fails; proper error message displayed | High |
