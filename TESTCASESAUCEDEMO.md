@@ -86,7 +86,6 @@ This document contains the curated and improved test cases for the Swag Labs E-C
 | TC_UIS_004_004 | Page load performance | UI Validation | Website reachable | 1. Measure page load times using devtools / Lighthouse | Page loads within acceptable limits (benchmark-dependent) | High |
 
 ---
-
 ## 4. API Test Cases (REST Assured) — ReqRes (automated)
 > These test cases are to be automated with REST Assured (Java) as part of the framework.
 
