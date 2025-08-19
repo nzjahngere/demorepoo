@@ -2,7 +2,7 @@
 ---
 
 ## Document purpose
-This document contains the curated and improved test cases for the Swag Labs E-Commerce site (SauceDemo). It includes Functional/UI test cases for the web app, API test cases (ReqRes) for both REST Assured automation and Postman manual validation, and conceptual Security & Performance test cases.
+This document contains the test cases for the Swag Labs E-Commerce website (SauceDemo). It includes Functional/UI test cases for the web app, API test cases (ReqRes) for both REST Assured automation and Postman manual validation, and conceptual Security & Performance test cases.
 
 ---
 
@@ -84,7 +84,7 @@ This document contains the curated and improved test cases for the Swag Labs E-C
 
 ---
 ## 4. API Test Cases (REST Assured) — ReqRes (automated)
-> These test cases are to be automated with REST Assured (Java) as part of the framework.
+> These test cases are to be automated with REST Assured as part of the framework.
 
 | TC ID | Method | Endpoint | Description | Steps (automation) | Expected Result | Priority |
 |---|---:|---|---|---|---|---|
@@ -119,7 +119,7 @@ This document contains the curated and improved test cases for the Swag Labs E-C
 ---
 
 ## 6. Conceptual Security Test Cases (DOCUMENTATION / MANUAL)
-> These are conceptual scenarios (not automated). Provide steps and expected results for reviewers.
+> These are conceptual scenarios (not automated).
 
 | TC ID | Scenario | Objective | Approach / Steps | Expected Result | Priority |
 |---|---|---|---|---|---|
@@ -133,7 +133,7 @@ This document contains the curated and improved test cases for the Swag Labs E-C
 ---
 
 ## 7. Conceptual Performance Test Cases (DOCUMENTATION / PLAN)
-> Conceptual scenarios for performance testing (document-only). See also Performance Test Plan in README.
+> Conceptual scenarios for performance testing.
 
 | TC ID | Scenario | Objective | Approach (conceptual) | Measured Metrics | Priority |
 |---|---|---|---|---|---|
