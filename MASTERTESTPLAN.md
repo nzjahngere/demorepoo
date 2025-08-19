@@ -101,10 +101,10 @@ QuantumLeap/
 ### Steps
 ```bash
 # Clone repo
-git clone https://github.com/your-username/QuantumLeap-Automation.git
+git clone https://github.com/nzjahngere/QuantumLeap.git
 
 # Navigate to project
-cd QuantumLeap-Automation
+cd QuantumLeap
 
 # Run UI & API tests with TestNG
 mvn clean test
@@ -115,7 +115,6 @@ mvn test -Dcucumber.options="classpath:features"
 # Generate Extent Report
 # Open report from: /reports/extent-report.html
 ````
-
 ---
 
 ## 🔹 Sample Report
@@ -153,5 +152,4 @@ The report includes:
 > ⚡ This project demonstrates a **full QA automation framework** across functional, API, BDD, performance, and security testing concepts.
 
 ```
-
 ---
