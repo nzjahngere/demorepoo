@@ -61,9 +61,7 @@ This document contains the test cases for the Swag Labs E-Commerce website (Sauc
 | TC_UAU_001_002 | Invalid Login | Negative | User is on the login page | 1. Open login page<br>2. Enter invalid credentials<br>3. Click **Login** | Login fails; proper error message displayed | High |
 | TC_UAU_001_003 | Empty Fields | Negative | User is on the login page | 1. Open login page<br>2. Leave fields blank<br>3. Click **Login** | Error message displayed indicating required fields | Medium |
 | TC_UAU_001_004 | Case Sensitivity | Negative | User is on the login page | 1. Enter username/password with different case variants<br>2. Click **Login** | Login fails (case-sensitive). Proper error shown | Medium |
-| TC_UAU_001_005 | Forgot Password Feature | Negative | Feature exists on page | 1. Click **Forgot Password** (or equivalent)<br>2. Enter email<br>3. Submit | Password reset flow triggered / confirmation shown | High |
 | TC_SCF_002_001 | Add to Cart | Functional | User is logged in & on Products page | 1. Select a product<br>2. Click **Add to cart** | Product added; cart icon/count updated | High |
-| TC_SCF_002_002 | Update Cart | Functional | Product(s) already in cart | 1. Open Cart<br>2. Increase/decrease quantity | Cart updated to reflect quantity change | Medium |
 | TC_SCF_002_003 | Boundary Quantity | Exploratory | User is on cart page | 1. Add maximum allowable quantity of an item<br>2. Observe system behavior | System allows max quantity without crash; validation messages if limits exceeded | Medium |
 | TC_SCF_002_004 | Remove from Cart | Functional | Item present in cart | 1. Open Cart<br>2. Click **Remove** on product | Item removed; cart count updates | High |
 | TC_CPF_003_001 | Proceeding to Checkout | Functional | Items in cart | 1. Click **Checkout** / **Proceed to Checkout**<br>2. Fill customer info<br>3. Submit | Checkout completes or proceeds to payment page | High |
